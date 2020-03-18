@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+	"compilerOptions": {
+    "module": "commonjs",
+		"outDir": "public",
+    "inlineSourceMap": true,
+    "removeComments": true,
+    "noEmit": false
+	},
+	"include": [
+		"src/electron.ts"
+  ]
+}
