@@ -27,7 +27,7 @@
 			"request": "attach",
 			"port": 9223,
 			"webRoot": "${workspaceFolder}",
-			"preLaunchTask": "WaitElectron",
+			"preLaunchTask": "WaitElectronReady",
 			"presentation": {
 				"hidden": true
 			}
