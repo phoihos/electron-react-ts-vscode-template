@@ -12,6 +12,9 @@
 			"protocol": "inspector",
 			"cwd": "${workspaceFolder}",
 			"runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron",
+			"windows": {
+				"runtimeExecutable": "${workspaceFolder}/node_modules/.bin/electron.cmd"
+			},
 			"runtimeArgs": [
 				".",
 				"--remote-debugging-port=9223"
